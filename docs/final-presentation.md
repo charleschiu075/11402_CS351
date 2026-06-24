@@ -183,9 +183,13 @@ CREATE INDEX ON people(dept);   -- rerun the query: the planner probes the index
 🔵 *Centerpiece demo — narrate the planner before vs. after the index*
 
 <!--
-Notes: This is the most impressive live moment. Run the query once (full scan),
-create the index, run again and explain the planner now probes it. Record a
-screencast as a backup in case the live run fails.
+Notes: Launch csvdb from the Project B repo root (the
+`g++ -std=c++17 -O2 -Wall -Wextra -Isrc src/main.cpp -o csvdb` build) so
+`.load people.csv people` resolves the sample committed at the repo root.
+Expected rows: Alice Chen, Eve Liu, Grace Huang, Karen Lo — the four active Eng
+people. Run the query once (full scan), CREATE INDEX, run it again and explain
+that the planner now probes the index. Record a screencast as a backup in case
+the live run fails.
 -->
 
 ---
