@@ -1,16 +1,3 @@
-<!--
-Final presentation deck for CS351 (AI-Assisted Software Development).
-
-How to render:
-  - Quickest: open in VS Code with the "Marp for VS Code" extension and use
-    "Marp: Export Slide Deck" to produce PDF / PPTX / HTML.
-  - CLI: npx @marp-team/marp-cli docs/final-presentation.md -o slides.pdf
-         npx @marp-team/marp-cli docs/final-presentation.md -o slides.pptx
-
-Lines beginning with "Notes:" inside HTML comments are Marp presenter notes
-(visible in presenter mode, hidden on the slide). 🔵 marks a live demo cue.
--->
-
 ---
 marp: true
 title: "CS351 Final Presentation — From Code to Workflow"
@@ -18,6 +5,22 @@ author: "Charles Chiu"
 theme: default
 paginate: true
 ---
+
+<!--
+Final presentation deck for CS351 (AI-Assisted Software Development).
+
+How to render:
+  - Quickest: open in VS Code with the "Marp for VS Code" extension, then run
+    "Marp: Export Slide Deck" to produce PDF / PPTX / HTML.
+  - CLI: npx @marp-team/marp-cli docs/final-presentation.md -o slides.pdf
+         npx @marp-team/marp-cli docs/final-presentation.md -o slides.pptx
+
+Text inside these HTML comments is a Marp presenter note (visible in presenter
+mode, hidden on the slide). The blue circle marks a live-demo cue.
+
+Notes: Open on the thesis. Everything in the next ~12 minutes is evidence for
+this one sentence. Four repositories, one workflow.
+-->
 
 <!-- _class: lead -->
 <!-- _paginate: false -->
@@ -32,11 +35,6 @@ Instructor: Yu-Feng Huang, Ph.D.
 > "Software development is not only coding. It is a workflow —
 > plan → develop → review → automate → release —
 > *assisted, not replaced,* by AI."
-
-<!--
-Notes: Open on the thesis. Everything in the next ~12 minutes is evidence for
-this one sentence. Four repositories, one workflow.
--->
 
 ---
 
@@ -53,7 +51,7 @@ this one sentence. Four repositories, one workflow.
 
 <!--
 Notes: Two are "engineering" projects, two are "portfolio/process". Together
-they show the full plan→ship workflow, not just code.
+they show the full plan-to-ship workflow, not just code.
 -->
 
 ---
